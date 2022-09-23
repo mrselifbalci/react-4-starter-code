@@ -56,7 +56,7 @@ function App() {
             {
               cities.map(item=>{
                 return(
-                <CityCard city={item}/>
+                <CityCard key={item._id} city={item}/>
                 )
               })
             }
